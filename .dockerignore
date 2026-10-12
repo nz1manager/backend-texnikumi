@@ -1,0 +1,24 @@
+# Git
+.git
+.gitignore
+
+# Muhit o'zgaruvchilari (maxfiy kalitlar konteynerga kirmasligi shart)
+.env
+.env.*
+.env.example
+
+# Mahalliy binar va kompilyatsiya fayllari
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+main
+texnikum-backend
+
+# Docker va hujjatlar
+Dockerfile
+.dockerignore
+README.md
